@@ -1,0 +1,14 @@
+# Data files
+data/raw/*.nc
+data/processed/*.nc
+*.nc
+*.grib
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+venv/
+.env

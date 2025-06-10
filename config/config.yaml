@@ -1,0 +1,7 @@
+data:
+  berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/Raw/BE/Global_TAVG_Gridded_0p25deg.nc"
+  era5_file: "/home/devin/Documents/temperature-comparison-data/Raw/ERA5/ERA5_TAVG_Monthly_Raw.nc"
+
+  processed:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/processed/BE/berkeley_earth_preprocessed.nc"
+    era5_file: "/home/devin/Documents/temperature-comparison-data/processed/ERA5/era5_preprocessed.nc"

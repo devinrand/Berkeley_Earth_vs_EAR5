@@ -1,7 +1,29 @@
-data:
-  berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/Raw/BE/Global_TAVG_Gridded_0p25deg.nc"
-  era5_file: "/home/devin/Documents/temperature-comparison-data/Raw/ERA5/ERA5_TAVG_Monthly_Raw.nc"
+ERA5_hourly_folder: '/main/ERA5/Downloads/Hourly-t2m'
+ERA5_monthly_folder: '/home/devin/Documents/temperature-comparison-data/Raw/ERA5/'
+elevation_file: '/home/devin/Documents/temperature-comparison-data/Raw/topography/elevation.nc'
+station_density_file: '/home/devin/Documents/temperature-comparison-data/Raw/station-density/station_density.nc'
+elevation_processed: '/home/devin/Documents/temperature-comparison-data/processed/topography/elevation.nc'
+station_density_processed: '/home/devin/Documents/temperature-comparison-data/processed/station_density/station_density.nc'
 
-  processed:
-    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/processed/BE/berkeley_earth_preprocessed.nc"
-    era5_file: "/home/devin/Documents/temperature-comparison-data/processed/ERA5/era5_preprocessed.nc"
+data:
+  tavg:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/Raw/BE/Global_TAVG_Gridded_0p25deg.nc"
+  
+  tmin:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/Raw/BE/Land_TMIN_Gridded_0p25deg.nc"
+    
+  tmax:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/Raw/BE/Land_TMAX_Gridded_0p25deg.nc"
+
+processed:
+  tavg:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/processed/BE/TAVG/BE_TAVG_processed.nc"
+    era5_file: "/home/devin/Documents/temperature-comparison-data/processed/ERA5/TAVG/ERA5_TAVG_processed.nc"
+
+  tmin:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/processed/BE/TMIN/BE_TMIN_processed.nc"
+    era5_file: "/home/devin/Documents/temperature-comparison-data/processed/ERA5/TMIN/ERA5_TMIN_processed.nc"
+
+  tmax:
+    berkeley_earth_file: "/home/devin/Documents/temperature-comparison-data/processed/BE/TMAX/BE_TMAX_processed.nc"
+    era5_file: "/home/devin/Documents/temperature-comparison-data/processed/ERA5/TMAX/ERA5_TMAX_processed.nc"
